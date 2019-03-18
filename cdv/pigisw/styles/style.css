@@ -1,9 +1,9 @@
 body{
+  background-color: red;
   margin: 0;
   font-family: segoe UI;
 }
-
-.header-area{
+ .header-area{
   background-color: #24222F;
   padding-top: 50px;
   padding-bottom: 30px;
