@@ -1,0 +1,43 @@
+body{
+  background-color:  aqua;
+  margin: 10;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  /*border-radius: 35%; */
+  padding: 10px;
+  text-align: center;
+}
+
+td{
+  background-color: rgb(190, 60, 10);
+  color: #FFF;
+}
+
+.col{
+  background-color: green;
+}
+
+.tabela_odstep{
+  margin-top: 20px;
+}
+
+.green{
+  background-color: green;
+}
+
+.white{
+  background-color: white;
+}
+#rowspan{
+  background-color: yellow;
+}
+#tabela5 td{
+  background-color: green;
+}
+
+.green, .white{
+  color: red;
+}

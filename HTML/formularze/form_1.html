@@ -1,0 +1,24 @@
+<form  action="#" method="get">
+  <label>Imię:<input type="text" name="imie" placeholder="Imię" required></label><br>
+  <label>Nazwisko:<input type="text" name="nazwisko" placeholder="Nazwisko" required></label><br>
+  <label>Email:<input type="text" name="email" placeholder="Email" required></label><br>
+
+<label>Mężczyzna<input type="radio" name="plec" value="m"></label>
+<label>Kobieta<input type="radio" name="plec" value="k"></label>
+
+<textarea name="wiadomosc" rows="8" cols="80"></textarea><br>
+<select  name="miasto">
+  <optgroup label="wielkopolskie">
+    <option value="poznan">Poznań</option>
+    <option value="gniezno">Gniezno</option>
+  </optgroup>
+
+  <optgroup label="zachodniopomorskie">
+    <option value="szczecin">Szczecin</option>
+    <option value="stargard">Stargard</option>
+  </optgroup>
+
+</select><br>
+<input type="reset" name="reset" value="Wyczyść">
+  <input type="submit" name="przycisk" value="Zapisz się">
+</form><br>
